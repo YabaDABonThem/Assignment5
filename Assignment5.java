@@ -4,7 +4,6 @@
 // This is for Assignment 5 in CS 211
 // This program finds the number of permutations with a recursive method
 
-
 public class Assignment5 {
     public static int permut(int n, int r) {
         // essentially, we keep multiplying n by n-1 an r amount of times, hence we can use r as our counter.
